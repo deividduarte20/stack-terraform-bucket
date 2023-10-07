@@ -1,3 +1,5 @@
-module "s3-object" {
-    source = "./s3-object"
+module "s3-buck" {
+  source      = "./module/s3"
+  name-bucket = var.name-bucket
+  tags        = var.tags
 }
