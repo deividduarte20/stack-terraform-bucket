@@ -1,3 +1,3 @@
-output "s3-object" {
-    value = module.s3-object.website_endpoint
+output "bucket-s3" {
+  value = module.s3-buck.bucket-arn
 }
