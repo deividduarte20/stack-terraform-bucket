@@ -11,7 +11,7 @@ terraform plan
 ## For to apply
 ```bash
 terraform apply
-```bash
+```
 
 ## Requirements
 
